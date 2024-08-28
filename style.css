@@ -1,0 +1,70 @@
+/* Google Font For Title */ 
+
+.navbar-nav .nav-link:hover {
+    background-color: #057c91;
+    color: #100f0f !important;
+    font-weight: bolder;
+}
+
+.edu-au-vic-wa-nt-hand {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400; /* Adjust weight as needed */
+}
+
+/* Carousel Component */
+
+.carousel {
+    margin-bottom: 40px;
+    margin-top: 10px; /* Space between carousel and cards */
+}
+
+.carousel-inner img {
+    height: 800px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+/* Custom styling for carousel arrows */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Lightly visible background */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+    filter: brightness(0.8); /* Slightly dimmed */
+    }
+
+/* Card Components */
+    .container {
+        width: 100%; /* Full width for responsiveness */
+        padding: 20px;
+        background-color: gray;
+    }
+    
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+        background-color: #fff;
+        transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px);
+        background-color: aqua;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+    
+    #name {
+        text-shadow: 2px 2px 4px #057c91;
+        text-align: center;
+    }
